@@ -11,16 +11,11 @@ public class Zadatak2 {
 
         System.exit(0);
     }
-    public static <T> void InvertAnyArray(List<T> array){
-        System.out.println("Elementi niza su: "+array );
-        for(int i=array.size()-1;i>0;--i)
-            System.out.print("Izvrnuti niz je: "+array.get(i));
-        }
 
    public static void Output(Integer[] InputArray,int size) {
        String[] EnumerationString = {"First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh",
                "Eighth", "Ninth", "Tenth", "Eleventh", "Twelfth", "Thirteenth", "Fourteenth", "Fifteenth"};
-       for (int i = 0; i < size; ++i) {
+       for (int i =size-1; i >= 0; --i) {
                System.out.format("%s number in array: %d\n", EnumerationString[i], InputArray[i]);
        }
 
@@ -35,7 +30,6 @@ public class Zadatak2 {
             InputArray[i] = sc.nextInt();
         }
         System.out.println("Sadrzaj niza je sljedeci: "+ Arrays.toString(InputArray));
-        InvertAnyArray(Arrays.asList(InputArray));
        Output(InputArray,size);
     }
 
