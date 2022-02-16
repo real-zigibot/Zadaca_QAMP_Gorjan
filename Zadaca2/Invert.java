@@ -13,7 +13,7 @@ public class Invert {
         InvertAnyArray(Arrays.asList(arrayThree));
         System.exit(0);
     }
-    public static <T> void InvertAnyArray(List<T> array){
+    public static <T> void InvertAnyArray(List<T> array){   //mali "hack" 
         System.out.println("Elementi niza su: "+array );
         System.out.print("Izvrnuti niz je: ");
         for(int i=array.size()-1;i>=0;i--)
