@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Zadatak1 {
     static public void main(String[] args){
         int x=0;
-        Input(x);
+        Input(0);
     }
     public static void Output(int[] InputArray,int size){
         for(int i=0;i<size;++i){
@@ -18,7 +18,7 @@ public class Zadatak1 {
                 System.out.print(" i nije veci od 10.\n");
         }
     }
-    public static void Input(int flag){
+    public static void Input(int x){
         System.out.print("Unesi velicinu niza(cijeli broj): ");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
