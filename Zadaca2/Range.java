@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Range {
     static public void main(String[] args) {
         EvenInRange();
+        System.exit(0);
     }
 
     public static int[] Input(int x) {

@@ -12,7 +12,7 @@ public class Zadatak2 {
         System.exit(0);
     }
 
-   public static void Output(Integer[] InputArray,int size) {
+   static public void Output(Integer[] InputArray,int size) {
        String[] EnumerationString = {"First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh",
                "Eighth", "Ninth", "Tenth", "Eleventh", "Twelfth", "Thirteenth", "Fourteenth", "Fifteenth"};
        for (int i =size-1; i >= 0; --i) {
@@ -20,7 +20,7 @@ public class Zadatak2 {
        }
 
    }
-    public static void Input(int x) {
+    static public void Input(int x) {
         System.out.print("Unesi velicinu niza(cijeli broj): ");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
